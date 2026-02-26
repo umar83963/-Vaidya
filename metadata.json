@@ -1,0 +1,9 @@
+{
+  "name": "Vaidya - Healthcare & Emergency Platform",
+  "description": "A comprehensive healthcare platform providing AI-powered symptom analysis, medicine guide, and emergency SOS services with real-time location tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
