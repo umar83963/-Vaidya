@@ -1,0 +1,21 @@
+{
+  "name": "VAIDYA Healthcare",
+  "short_name": "VAIDYA",
+  "description": "Professional Grade 1 Healthcare Application. Providing real-time hospital search, AI medical diagnostic assistance, and emergency services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1505751172107-5739a00723a5?auto=format&fit=crop&q=80&w=192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1505751172107-5739a00723a5?auto=format&fit=crop&q=80&w=512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

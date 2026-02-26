@@ -1,0 +1,6 @@
+{
+	"appId": "com.vaidya.healthcare",
+	"appName": "Vaidya",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
