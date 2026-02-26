@@ -1,5 +1,5 @@
 
-import { Doctor, HospitalData, EmergencyContact, Disease } from './types';
+import { Doctor, HospitalData, EmergencyContact, Disease } from './types.ts';
 
 export const DUMMY_HOSPITALS: HospitalData[] = [
   {

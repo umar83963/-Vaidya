@@ -95,8 +95,8 @@ import {
 } from 'lucide-react';
 import { GoogleGenAI, LiveServerMessage, Modality } from '@google/genai';
 import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
-import { AppView, Medicine, Language, Doctor, EmergencyContact, Disease } from './types';
-import { seedInitialData, getMedicines, saveMedicine, deleteMedicine } from './services/medicineService';
+import { AppView, Medicine, Language, Doctor, EmergencyContact, Disease } from './types.ts';
+import { seedInitialData, getMedicines, saveMedicine, deleteMedicine } from './services/medicineService.ts';
 import { 
   getProChatResponse, 
   getAdvancedAIResponse,
@@ -107,8 +107,8 @@ import {
   generateMedicalImage,
   translateMedicine,
   validateEmailWithAI
-} from './services/geminiService';
-import { DUMMY_DOCTORS, DUMMY_EMERGENCY_CONTACTS, DUMMY_DISEASES, HEALTH_DISCLAIMER, TERMS_AND_POLICIES } from './constants';
+} from './services/geminiService.ts';
+import { DUMMY_DOCTORS, DUMMY_EMERGENCY_CONTACTS, DUMMY_DISEASES, HEALTH_DISCLAIMER, TERMS_AND_POLICIES } from './constants.tsx';
 
 // --- Official Branding Components ---
 
